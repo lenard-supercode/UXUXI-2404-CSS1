@@ -1,0 +1,100 @@
+/* font und text */
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+
+html {
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: "Moo Lah Lah", "Comic Sans MS", Arial, sans-serif; 
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 10px 10px 10px green;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    letter-spacing: 15px;
+}
+
+/* hintergründe */
+header, footer {
+    background-color: gray;
+}
+
+main {
+    background-image: url(./../img/photo-1605244863941-3a3ed921c60d.avif);
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    /* Kommentar */
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* klasse (siehe index.html) */
+.colored-background {
+    background-color: aquamarine;
+}
+
+/* id (siehe index.html) */
+#larger-text {
+    font-size: larger;
+}
+
+/* pseudoklassen */
+a:hover {
+    /* background-color: rgb(190, 222, 255); */
+}
+
+a:active {
+    color: red;
+    text-shadow: 0px 0px 10px red;
+}
+
+/* liste (listitems) mit pseudoklassen & pseudoelementen gestalten */
+li:first-child {
+    font-size: larger;
+}
+
+li:last-child{
+    font-size: smaller;
+}
+
+li::before{
+    content: "+ ";
+}
+
+li {
+    list-style-type: none;
+}
+
+/* weiteres pseudoelement */
+p::first-letter {
+    font-size: larger;
+}
+
+/* Images */
+.logo-width {
+    width: 80px;
+}
+
+img {
+    width: 200px;
+    opacity: 0.5;
+}
+
+img:hover {
+    box-shadow: 0px 0px 20px black;
+}
+
+/* komplexere Selektoren */
+p.colored-background, h1.colored-background {
+    background-color: aquamarine;
+}
+
+ul.colored-background {
+    background-color: brown;
+}
+
+li a {
+    color: white;
+}
