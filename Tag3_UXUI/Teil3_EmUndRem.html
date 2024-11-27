@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border: 1px solid purple;
+            font-size: 32px;
+        }
+        .child{
+            border: 1px solid palevioletred;
+            font-size: 0.5em;
+        }
+        html{
+            font-size: 10px;
+        }
+        .rem-element{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- EM : Bezugspunkt relativ zur Schriftgröße des Eltern-Elements -->
+    <!-- Elternelement hat Schriftgröße von 16px -> 1em = 16px -->
+    <div class="parent">
+        Elternelement 16px;
+        <div class="child">
+            Kindelement 32px;
+        </div>
+    </div>
+
+    
+    <!-- REM - Root EM : Bezugspunkt relativ zur Schriftgröße des Root-Elements -->
+    <div class="rem-element">
+        Mein Text ist in der Maßeinheit REM definiert.
+    </div>
+
+    <!--
+    **Vorteile:**
+    1. **Flexibel**: Skalieren dynamisch mit Schriftgrößen
+    2. **Responsiv**: Ideal für verschiedene Geräte
+    3. **Zugänglich**: Unterstützen Browser-Schriftgrößeneinstellungen
+    4. **Konsistent**: Einheitliches Design mit **`rem`**
+    5. **Effizient**: Änderungen wirken sich global aus
+    -->
+</body>
+</html>

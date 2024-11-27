@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigationbar</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: rgb(8, 8, 48);
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+        }
+        nav li{
+            display: inline;
+            padding: 0px 20px;
+        }
+        nav a {
+            color:antiquewhite;
+            text-decoration: none;  /* Entfernt Standardunterstreichung der Links */
+        }
+        nav ul{
+            text-align: center;
+        }
+    </style>
+<body>
+    <!-- Vorteile Liste als Navigationbar statt reine a-Tags -->
+    <!-- - SEO -->
+    <!-- - semantisch Korrekt -->
+    <!-- - bessere Struktur, logische Gruppierung  -->
+    <!-- - Designs besser/gezielter steuern -->
+    <nav>
+        <ul>
+            <li><a href="#">Willkommen</a></li>
+            <li><a href="#">Über Uns</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>

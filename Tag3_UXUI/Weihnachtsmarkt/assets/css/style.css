@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*   NAVIGATION BAR */
+nav{
+    background-color: rgb(8, 8, 48);
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    padding: 0px 20px;
+}
+nav a {
+    color:antiquewhite;
+    text-decoration: none;  /* Entfernt Standardunterstreichung der Links */
+}
+nav ul {
+    text-align: center;
+}
+
+/*   HERO SECTION */
+#hero {
+    background-color: rgb(245, 241, 235);
+    color: rgb(39, 39, 39);
+    height: 70vh;
+    text-align: center;
+    font-size: 64px;
+    padding: 150px 100px;
+}
+
+#hero h1 {
+    font-size: 1em;
+    padding:30px;
+    margin-bottom: 30px;
+}
+
+#hero p {
+    font-size: 0.5em;
+}
+
+
+
+/*   PUB SECTION */
+#pub{
+    background-color: rgb(8, 8, 48);
+    text-align: center;
+    padding: 50px 50px;
+}
+
+#pub .pub-text{
+    color:antiquewhite;
+}
+
+img{
+    margin-bottom: 50px;
+}
+
+
+
+/*   FOOD SPOTS SECTION */
+#food-spots{
+    background-color: rgb(245, 241, 235);
+    text-align: center;
+    height: 400px;
+    padding: 50px;
+}
+
+#food-spots h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+#food-spots ul{
+    list-style-type: none;
+}
+
+#food-spots li{
+    font-size: 1.5rem;
+}
+
+
+
+/*   FOOTER   */
+footer {
+    background-color: rgb(8, 8, 48);
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite;
+}

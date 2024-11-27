@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .meine-border-box{
+            width: 400px;
+            border: 5px solid black;
+            box-sizing: border-box;
+            padding: 30px;
+        }
+
+        .meine-content-box{
+            width: 400px;
+            border: 5px solid purple;
+            box-sizing: content-box;
+            padding: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="meine-border-box">
+        Border-Box: Meine gesamte Breite bleibt 200px.
+    </div>
+    <div class="meine-content-box">
+        Content-Box: Meine gesamte Breite ist größer als 200px.
+    </div>
+</body>
+</html>
